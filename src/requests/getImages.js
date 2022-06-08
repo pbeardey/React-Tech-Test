@@ -12,7 +12,10 @@ const getImages = (query) => {
     return axios
       .get(API_ENDPOINT+query)
       .then((response)=>{
-        console.log(response);
+        const imageResults = response.data.collection.items;
+        const parsedResults = imageResults.filter((e) => {return e.data[0].media_type==="image"})
+        const images = parsedResults.map((e) => {return e.links[0].href})
+        return images;
       }
       )
       .catch((err) => {
