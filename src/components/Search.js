@@ -3,16 +3,16 @@ import React, { useState } from "react";
 import getImages from "../requests/getImages";
 import "../styles/search.css";
 
-const Search = () => {
+const Search = ({ setSearchResults }) => {
   const [searchText, setSearchText] = useState("")
  
   const handleInputChange = (event) => {
     setSearchText(event.target.value);
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    getImages(searchText);
+    setSearchResults(await getImages(searchText));
   }
 
   return (
