@@ -9,7 +9,7 @@ const SearchResults = ({ results }) => {
   if(!results.length) {
     return (
       <div className="search-results__header">
-        <h2>No results</h2>
+        <p>No results</p>
       </div>
     )
   }
@@ -17,7 +17,7 @@ const SearchResults = ({ results }) => {
     return (
       <>
       <div className="search-results__header">
-        <h2>Search Results</h2>
+        <p>Search results</p>
       </div>
       <div className="search-results__wrapper">
         {results.map((image) => <img
