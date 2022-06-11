@@ -1,10 +1,12 @@
 # Tech Task: NASA Images Search
 
-This is task to GET images from a NASA API endpoint based on the users keyword.  /The images are then displayed.
+This task is to GET images from a NASA API endpoint based on the users keyword.  
+The images are then displayed.
 
 ## Task description:
 
-Build a React web application that allows users to search for images based on a query relating to space./Functionality required: A search page allowing users to search for images by a keyword;/Images must be displayed to the user following a successful search.
+Build a React web application that allows users to search for images based on a query relating to space.  
+Functionality required: A search page allowing users to search for images by a keyword;/Images must be displayed to the user following a successful search.
 
 ## Screenshots
 
