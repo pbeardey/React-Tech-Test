@@ -11,10 +11,11 @@ Functionality required: A search page allowing users to search for images by a k
 ## Screenshots
 
 Desktop  
-(https://github.com/pbeardey/React-Tech-Test/blob/develop/screen-shot-desktop.png)
+
+![screenshot desktop](https://github.com/pbeardey/React-Tech-Test/blob/develop/screen-shot-desktop.png)
 
 Mobile  
-(https://github.com/pbeardey/React-Tech-Test/blob/develop/screen-shot-mobile.png)
+![screenshot mobil](https://github.com/pbeardey/React-Tech-Test/blob/develop/screen-shot-mobile.png)
 
 ## Build
 
