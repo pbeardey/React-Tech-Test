@@ -42,4 +42,4 @@ Error handling - if the user keyword didn't return images, then inform the user.
 
 ## Author
 
-Paul Beard, A [Manchester Codes](https://www.manchestercodes.com/) Project.
+P Beard, A [Manchester Codes](https://www.manchestercodes.com/) Project.
