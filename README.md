@@ -9,9 +9,10 @@ Build a React web application that allows users to search for images based on a 
 ## Screenshots
 
 Desktop
+`desktop image here`
 
 Mobile
-
+`mobile image here`
 
 ## Build
 
