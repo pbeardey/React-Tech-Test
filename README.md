@@ -12,7 +12,7 @@ Functionality required: A search page allowing users to search for images by a k
 
 Desktop  
 
-<img src="/blob/develop/screen-shot-desktop.png" alt="desktop screenshot" width="60%">
+<img src="/blob/develop/screen-shot-desktop.png" alt="desktop screenshot" width="60%"/>
 ![screenshot desktop](/screen-shot-desktop.png)
 
 Mobile  
