@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
         <img className="nasa-logo" alt="NASA logo" src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"/>
         <Search setSearchResults={setSearchResults}/>
-        <SearchResults searchResults={searchResults}/>
+        <SearchResults results={searchResults}/>
     </div>
   );
 }

@@ -14,7 +14,12 @@ const getImages = (query) => {
       .then((response)=>{
         const imageResults = response.data.collection.items;
         const parsedResults = imageResults.filter((e) => {return e.data[0].media_type==="image"})
-        const images = parsedResults.map((e) => {return e.links[0].href})
+        const images = parsedResults.map((e) => {return {
+          nasaId: e.data[0].nasa_id,
+          href: e.links[0].href,
+          description: e.data[0].description
+        }});
+        console.log(images)
         return images;
       }
       )

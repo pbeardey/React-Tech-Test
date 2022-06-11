@@ -1,22 +1,43 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 // src/requests/SearchResults.js
 
-import React from 'react';
+import React from "react";
+import PropTypes from "prop-types";
 import "../styles/search-results.css";
 
-const SearchResults = ({ searchResults }) => {
+const SearchResults = ({ results }) => {
   
+  if(!results.length) {
+    return (
+      <div className="search-results__header">
+        <h2>No results</h2>
+      </div>
+    )
+  }
+  else {
+    return (
+      <>
+      <div className="search-results__header">
+        <h2>Search Results</h2>
+      </div>
+      <div className="search-results__wrapper">
+        {results.map((image) => <img
+          key={image.nasaId}
+          className="card-image"
+          src={image.href}
+          alt={image.description} />)};
+      </div>
+      </>
+    )
+  }
+}
 
-  return (
-    <>
-      <p>Search Results</p>
-      <img 
-        className="card-image"
-        src='https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
-        alt="space-image"
-      />   
-
-    </>
+SearchResults.propTypes = {
+  results: PropTypes.arrayOf(
+    PropTypes.shape({
+      nasaId: PropTypes.string.isRequired,
+      href: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+    }).isRequired,
   )
 }
 

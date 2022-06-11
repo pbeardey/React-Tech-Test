@@ -1,0 +1,31 @@
+.search-results__header {
+  margin-left: 2%;
+}
+
+.search-results__wrapper {
+  display: inline-block;
+  column-count: 4;
+  column-gap: 10px;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 10px;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1024) {
+  .search-results__wrapper {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 750px)  {
+  .search-results__wrapper {
+    column-count: 2;
+  }
+}
