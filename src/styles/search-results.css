@@ -1,31 +1,37 @@
 .search-results__header {
   margin-left: 2%;
+  font-size: 18pt;
 }
 
 .search-results__wrapper {
-  display: inline-block;
-  column-count: 4;
-  column-gap: 10px;
-  width: 94%;
-  margin-left: 3%;
-  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
 .card-image {
   display: block;
-  width: 100%;
+  box-sizing:border-box;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  width: 20%;
 }
 
-@media (max-width: 1024) {
-  .search-results__wrapper {
-    column-count: 3;
-  }
-}
+
+
 
 @media (max-width: 750px)  {
-  .search-results__wrapper {
-    column-count: 2;
+  .card-image {
+    width: 100%;
+  }
+} 
+
+@media (max-width: 1024px) and (min-width: 751px) {
+  .card-image {
+    width: 50%;
   }
 }
