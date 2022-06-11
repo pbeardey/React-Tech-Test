@@ -13,10 +13,10 @@ Functionality required: A search page allowing users to search for images by a k
 Desktop  
 
 <img src="/screen-shot-desktop.png" alt="desktop screenshot" width="400px"/>
-![screenshot desktop](/screen-shot-desktop.png)
 
 Mobile  
-![screenshot mobil](/screen-shot-mobile.png)
+
+<img src="/screen-shot-mobile.png" alt="desktop screenshot" width="200px"/>
 
 ## Build
 
