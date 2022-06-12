@@ -19,7 +19,7 @@ const getImages = (query) => {
           href: e.links[0].href,
           description: e.data[0].description
         }});
-        console.log(images)
+        return images;
       }
       )
       .catch((err) => {

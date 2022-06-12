@@ -23,6 +23,13 @@ exports[`App renders App 1`] = `
         Go!
       </button>
     </form>
+    <div
+      class="search-results__header"
+    >
+      <p>
+        No results
+      </p>
+    </div>
   </div>
 </DocumentFragment>
 `;
