@@ -16,7 +16,7 @@ Desktop
 
 Mobile  
 
-<img src="/screen-shot-mobile.png" alt="desktop screenshot" width="200px"/>
+<img src="/screen-shot-mobile.png" alt="mobile screenshot" width="200px"/>
 
 ## Build
 
